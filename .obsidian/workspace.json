@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "de340d4ce4ae524a",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6d7c27f3a914e25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b03fa10507f4562",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "af72988e0872f4c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "167ad8b4ef95a17e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "beafc8cbe8a040a1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6d367321689e70d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c6bdcd401ecd4e37",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bb1566ddfa160a40",
+    "type": "split",
+    "children": [
+      {
+        "id": "5022330eb34fb92d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bdeaeaa19cb5a014",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "b7557a05a0f2e752",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "2883d7f79d5f6461",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6d8f5ff9c3496463",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
+            }
+          },
+          {
+            "id": "ce984b56116e4735",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          },
+          {
+            "id": "f2b902d38ba914c7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "2b03fa10507f4562",
+  "lastOpenFiles": [
+    "README.md",
+    "99 - Assets/Books",
+    "99 - Assets/Images/Pasted image 20260227122729.png",
+    "99 - Assets/Images/Pasted image 20260227123435.png",
+    "99 - Assets/Images",
+    "98 - Templates/Конспект.md",
+    "03 - Work/Reports/2026.03.12.md",
+    "03 - Work/Reports/2026.03.12 - KKM.md",
+    "03 - Work/Reports/2026.03.12 - KKM Draw.md",
+    "03 - Work/Reports/2026.03.10.md",
+    "03 - Work/Reports/2026.03.04.md",
+    "03 - Work/Reports/2026.03.02.md",
+    "03 - Work/Reports/2026.02.26 - Quiz Draw.md",
+    "03 - Work/Reports/2026.02.25 - Quiz Report.md",
+    "03 - Work/Reports/2026.02.25 - Quiz Draw.md",
+    "03 - Work/Reports/2026.02.24 - Quiz Report.md",
+    "03 - Work/Reports/2026.02.24 - Quiz Draw.md",
+    "03 - Work/Reports/2026.02.20 - Quiz.md",
+    "03 - Work/Reports/2026.02.19 - Quiz.md",
+    "03 - Work/Reports",
+    "03 - Work/Rules/Rules.md",
+    "03 - Work/Rules",
+    "02 - Mindset/Reports/19.03.2025.md",
+    "02 - Mindset/Reports",
+    "02 - Mindset/Look/Прическа.md",
+    "02 - Mindset/Look",
+    "02 - Mindset/Topcs",
+    "02 - Mindset/Новые мысли.md",
+    "02 - Mindset/Переделка.md",
+    "02 - Mindset/Книга мыслей.md",
+    "02 - Mindset/Приколы.md",
+    "02 - Mindset/Книги.md",
+    "02 - Mindset/Как учиться лучше?.md",
+    "02 - Mindset/Что нового можно изучить.md",
+    "02 - Mindset/День.md",
+    "01 - English/Rules",
+    "00 - Programming/Rails/Hotwire",
+    "00 - Programming/Rails",
+    "Untitled.canvas"
+  ]
+}
