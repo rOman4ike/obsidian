@@ -1,0 +1,1514 @@
+﻿[2026-03-14T12:39:41.034Z] [Plugin] Starting plugin initialization
+[2026-03-14T12:39:41.034Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 0,
+  "remoteShaCount": 0,
+  "lastCommit": null
+}
+[2026-03-14T12:39:41.035Z] [Plugin] Plugin initialization completed successfully
+[2026-03-14T12:40:35.039Z] [FitSettings] Cannot refresh fields without PAT token
+[2026-03-14T12:41:34.483Z] [Plugin] Manual sync requested
+[2026-03-14T12:41:34.491Z] 🚀 [SYNC START] Manual sync requested
+[2026-03-14T12:41:34.492Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-03-14T12:41:34.492Z] .. 💾 [LocalVault] Scanning files...
+[2026-03-14T12:41:34.494Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-03-14T12:41:34.517Z] ... 💾 [LocalVault] Scanned 46 files
+[2026-03-14T12:41:35.435Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (76a1967)...
+[2026-03-14T12:41:35.846Z] ... ☁️ [RemoteVault] Fetched 87 files
+[2026-03-14T12:41:35.847Z] [Fit] Remote changes detected: {
+  "ADDED": 87,
+  "MODIFIED": 0,
+  "REMOVED": 0,
+  "total": 87
+}
+[2026-03-14T12:41:35.847Z] .. ✅ [Sync] Change detection complete
+[2026-03-14T12:41:35.847Z] 🔄 [FitSync] Syncing changes (46 local, 87 remote): {
+  "local": {
+    "ADDED": [
+      "Что нужно разобрать завтра.md",
+      "Untitled.canvas",
+      "README.md",
+      "99 - Assets/Images/Pasted image 20260227123435.png",
+      "99 - Assets/Images/Pasted image 20260227122729.png",
+      "98 - Templates/Конспект.md",
+      "03 - Work/Rules/Rules.md",
+      "03 - Work/Reports/2026.03.12.md",
+      "03 - Work/Reports/2026.03.12 - KKM.md",
+      "03 - Work/Reports/2026.03.12 - KKM Draw.md",
+      "03 - Work/Reports/2026.03.10.md",
+      "03 - Work/Reports/2026.03.04.md",
+      "03 - Work/Reports/2026.03.02.md",
+      "03 - Work/Reports/2026.02.26 - Quiz Draw.md",
+      "03 - Work/Reports/2026.02.25 - Quiz Report.md",
+      "03 - Work/Reports/2026.02.25 - Quiz Draw.md",
+      "03 - Work/Reports/2026.02.24 - Quiz Report.md",
+      "03 - Work/Reports/2026.02.24 - Quiz Draw.md",
+      "03 - Work/Reports/2026.02.20 - Quiz.md",
+      "03 - Work/Reports/2026.02.19 - Quiz.md",
+      "02 - Mindset/Экскурсии.md",
+      "02 - Mindset/Что нового можно изучить.md",
+      "02 - Mindset/Приколы.md",
+      "02 - Mindset/Переделка.md",
+      "02 - Mindset/Новые мысли.md",
+      "02 - Mindset/Книги.md",
+      "02 - Mindset/Книга мыслей.md",
+      "02 - Mindset/Как учиться лучше?.md",
+      "02 - Mindset/День.md",
+      "02 - Mindset/Reports/19.03.2025.md",
+      "02 - Mindset/Look/Прическа.md",
+      "01 - English/Словарь.md",
+      "01 - English/Rules/Apostrophe.md",
+      "00 - Programming/Rails/Hotwire/Data-Turbo-Permanent.md",
+      "00 - Programming/Rails/Decorators.md",
+      "00 - Programming/Rails/?Logger.md",
+      "00 - Programming/Rails/?Decorators vs Helpers vs Presenters.md",
+      "00 - Programming/Naming Conventions.md",
+      "00 - Programming/Linux/Stdin, Stdout, and Stderr.md",
+      "00 - Programming/Linux/File Descriptors.md",
+      "00 - Programming/Drawing 2026-02-20 16.21.57.excalidraw.md",
+      "00 - Programming/Docker/Getting Started.md",
+      "00 - Programming/Docker/Docker.sock.md",
+      "00 - Programming/Base/TCP.md",
+      "00 - Programming/Base/HTTP.md",
+      "00 - Programming/Base/HTTP-Proxy.md"
+    ]
+  },
+  "remote": {
+    "ADDED": [
+      ".DS_Store",
+      ".obsidian/.DS_Store",
+      ".obsidian/app.json",
+      ".obsidian/appearance.json",
+      ".obsidian/community-plugins.json",
+      ".obsidian/core-plugins.json",
+      ".obsidian/graph.json",
+      ".obsidian/icons/simple-icons.zip",
+      ".obsidian/icons/simple-icons/Docker.svg",
+      ".obsidian/icons/simple-icons/Hotwire.svg",
+      ".obsidian/icons/simple-icons/Linux.svg",
+      ".obsidian/icons/simple-icons/Ruby.svg",
+      ".obsidian/icons/simple-icons/Rubyonrails.svg",
+      ".obsidian/plugins/obsidian-excalidraw-plugin/data.json",
+      ".obsidian/plugins/obsidian-excalidraw-plugin/main.js",
+      ".obsidian/plugins/obsidian-excalidraw-plugin/manifest.json",
+      ".obsidian/plugins/obsidian-excalidraw-plugin/styles.css",
+      ".obsidian/plugins/obsidian-extract-pdf-highlights/main.js",
+      ".obsidian/plugins/obsidian-extract-pdf-highlights/manifest.json",
+      ".obsidian/plugins/obsidian-extract-pdf-highlights/styles.css",
+      ".obsidian/plugins/obsidian-git/data.json",
+      ".obsidian/plugins/obsidian-git/main.js",
+      ".obsidian/plugins/obsidian-git/manifest.json",
+      ".obsidian/plugins/obsidian-git/styles.css",
+      ".obsidian/plugins/obsidian-icon-folder/data.json",
+      ".obsidian/plugins/obsidian-icon-folder/main.js",
+      ".obsidian/plugins/obsidian-icon-folder/manifest.json",
+      ".obsidian/plugins/obsidian-icon-folder/styles.css",
+      ".obsidian/plugins/obsidian-spaced-repetition/main.js",
+      ".obsidian/plugins/obsidian-spaced-repetition/manifest.json",
+      ".obsidian/plugins/obsidian-spaced-repetition/styles.css",
+      ".obsidian/plugins/table-editor-obsidian/data.json",
+      ".obsidian/plugins/table-editor-obsidian/main.js",
+      ".obsidian/plugins/table-editor-obsidian/manifest.json",
+      ".obsidian/plugins/table-editor-obsidian/styles.css",
+      ".obsidian/snippets/library__sidebar-items.css",
+      ".obsidian/themes/Obsidianite/manifest.json",
+      ".obsidian/themes/Obsidianite/theme.css",
+      ".obsidian/themes/Vanilla AMOLED/manifest.json",
+      ".obsidian/themes/Vanilla AMOLED/theme.css",
+      ".obsidian/workspace.json",
+      "00 - Programming/Base/HTTP-Proxy.md",
+      "00 - Programming/Base/HTTP.md",
+      "00 - Programming/Base/TCP.md",
+      "00 - Programming/Docker/Docker.sock.md",
+      "00 - Programming/Docker/Getting Started.md",
+      "00 - Programming/Drawing 2026-02-20 16.21.57.excalidraw.md",
+      "00 - Programming/Linux/File Descriptors.md",
+      "00 - Programming/Linux/Stdin, Stdout, and Stderr.md",
+      "00 - Programming/Naming Conventions.md",
+      "00 - Programming/Rails/?Decorators vs Helpers vs Presenters.md",
+      "00 - Programming/Rails/?Logger.md",
+      "00 - Programming/Rails/Decorators.md",
+      "00 - Programming/Rails/Hotwire/Data-Turbo-Permanent.md",
+      "01 - English/Rules/Apostrophe.md",
+      "01 - English/Словарь.md",
+      "02 - Mindset/Look/Прическа.md",
+      "02 - Mindset/Reports/19.03.2025.md",
+      "02 - Mindset/День.md",
+      "02 - Mindset/Как учиться лучше?.md",
+      "02 - Mindset/Книга мыслей.md",
+      "02 - Mindset/Книги.md",
+      "02 - Mindset/Новые мысли.md",
+      "02 - Mindset/Переделка.md",
+      "02 - Mindset/Приколы.md",
+      "02 - Mindset/Что нового можно изучить.md",
+      "02 - Mindset/Экскурсии.md",
+      "03 - Work/Reports/2026.02.19 - Quiz.md",
+      "03 - Work/Reports/2026.02.20 - Quiz.md",
+      "03 - Work/Reports/2026.02.24 - Quiz Draw.md",
+      "03 - Work/Reports/2026.02.24 - Quiz Report.md",
+      "03 - Work/Reports/2026.02.25 - Quiz Draw.md",
+      "03 - Work/Reports/2026.02.25 - Quiz Report.md",
+      "03 - Work/Reports/2026.02.26 - Quiz Draw.md",
+      "03 - Work/Reports/2026.03.02.md",
+      "03 - Work/Reports/2026.03.04.md",
+      "03 - Work/Reports/2026.03.10.md",
+      "03 - Work/Reports/2026.03.12 - KKM Draw.md",
+      "03 - Work/Reports/2026.03.12 - KKM.md",
+      "03 - Work/Reports/2026.03.12.md",
+      "03 - Work/Rules/Rules.md",
+      "98 - Templates/Конспект.md",
+      "99 - Assets/Images/Pasted image 20260227122729.png",
+      "99 - Assets/Images/Pasted image 20260227123435.png",
+      "README.md",
+      "Untitled.canvas",
+      "Что нужно разобрать завтра.md"
+    ]
+  }
+}
+[2026-03-14T12:41:35.849Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 87
+}
+[2026-03-14T12:41:39.543Z] .. ⬇️ [Pull] Applied remote changes to local: {
+  "filesWritten": 0,
+  "filesDeleted": 0,
+  "clashesWrittenToFit": 87
+}
+[2026-03-14T12:41:39.544Z] [FitSync] Updated local state with SHAs from written files: {
+  "filesProcessed": 41,
+  "totalFilesInState": 87
+}
+[2026-03-14T12:41:39.544Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 87,
+  "remoteChanges": 87,
+  "commitChanged": true,
+  "warnings": [
+    "Local SHA cache jumped from 0 to 87 files - possible recovery from empty cache or first sync"
+  ],
+  "localOpsApplied": 87,
+  "remoteOpsPushed": 0
+}
+[2026-03-14T12:41:39.546Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 47,
+  "remoteShaCount": 87,
+  "lastCommit": "76a196721e43c9863f327d2a9c13dfe14377d958"
+}
+[2026-03-14T12:41:39.546Z] [FitSync] Sync completed with conflicts: {
+  "conflictCount": 87,
+  "conflicts": [
+    {
+      "path": "Что нужно разобрать завтра.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "Untitled.canvas",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "README.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "99 - Assets/Images/Pasted image 20260227123435.png",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "99 - Assets/Images/Pasted image 20260227122729.png",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "98 - Templates/Конспект.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "03 - Work/Rules/Rules.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.03.12.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.03.12 - KKM.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.03.12 - KKM Draw.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.03.10.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.03.04.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.03.02.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.02.26 - Quiz Draw.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.02.25 - Quiz Report.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.02.25 - Quiz Draw.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.02.24 - Quiz Report.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.02.24 - Quiz Draw.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.02.20 - Quiz.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.02.19 - Quiz.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Экскурсии.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Что нового можно изучить.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Приколы.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Переделка.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Новые мысли.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Книги.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Книга мыслей.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Как учиться лучше?.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/День.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Reports/19.03.2025.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Look/Прическа.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "01 - English/Словарь.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "01 - English/Rules/Apostrophe.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Rails/Hotwire/Data-Turbo-Permanent.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Rails/Decorators.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Rails/?Logger.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Rails/?Decorators vs Helpers vs Presenters.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Naming Conventions.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Linux/Stdin, Stdout, and Stderr.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Linux/File Descriptors.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Drawing 2026-02-20 16.21.57.excalidraw.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Docker/Getting Started.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Docker/Docker.sock.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Base/TCP.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Base/HTTP.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Base/HTTP-Proxy.md",
+      "local": "ADDED",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".DS_Store",
+      "local": "untracked",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/.DS_Store",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/app.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/appearance.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/community-plugins.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/core-plugins.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/graph.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/icons/simple-icons.zip",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/icons/simple-icons/Docker.svg",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/icons/simple-icons/Hotwire.svg",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/icons/simple-icons/Linux.svg",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/icons/simple-icons/Ruby.svg",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/icons/simple-icons/Rubyonrails.svg",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-excalidraw-plugin/data.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-excalidraw-plugin/main.js",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-excalidraw-plugin/manifest.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-excalidraw-plugin/styles.css",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-extract-pdf-highlights/main.js",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-extract-pdf-highlights/manifest.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-extract-pdf-highlights/styles.css",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-git/data.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-git/main.js",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-git/manifest.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-git/styles.css",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-icon-folder/data.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-icon-folder/main.js",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-icon-folder/manifest.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-icon-folder/styles.css",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-spaced-repetition/main.js",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-spaced-repetition/manifest.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-spaced-repetition/styles.css",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/table-editor-obsidian/data.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/table-editor-obsidian/main.js",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/table-editor-obsidian/manifest.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/table-editor-obsidian/styles.css",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/snippets/library__sidebar-items.css",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/themes/Obsidianite/manifest.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/themes/Obsidianite/theme.css",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/themes/Vanilla AMOLED/manifest.json",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/themes/Vanilla AMOLED/theme.css",
+      "local": "protected",
+      "remote": "ADDED"
+    },
+    {
+      "path": ".obsidian/workspace.json",
+      "local": "protected",
+      "remote": "ADDED"
+    }
+  ]
+}
+[2026-03-14T12:41:39.546Z] [FitSync] 40 path(s) blocked by sync policy: {
+  "protectedPaths": [
+    ".obsidian/.DS_Store",
+    ".obsidian/app.json",
+    ".obsidian/appearance.json",
+    ".obsidian/community-plugins.json",
+    ".obsidian/core-plugins.json",
+    ".obsidian/graph.json",
+    ".obsidian/icons/simple-icons.zip",
+    ".obsidian/icons/simple-icons/Docker.svg",
+    ".obsidian/icons/simple-icons/Hotwire.svg",
+    ".obsidian/icons/simple-icons/Linux.svg",
+    ".obsidian/icons/simple-icons/Ruby.svg",
+    ".obsidian/icons/simple-icons/Rubyonrails.svg",
+    ".obsidian/plugins/obsidian-excalidraw-plugin/data.json",
+    ".obsidian/plugins/obsidian-excalidraw-plugin/main.js",
+    ".obsidian/plugins/obsidian-excalidraw-plugin/manifest.json",
+    ".obsidian/plugins/obsidian-excalidraw-plugin/styles.css",
+    ".obsidian/plugins/obsidian-extract-pdf-highlights/main.js",
+    ".obsidian/plugins/obsidian-extract-pdf-highlights/manifest.json",
+    ".obsidian/plugins/obsidian-extract-pdf-highlights/styles.css",
+    ".obsidian/plugins/obsidian-git/data.json",
+    ".obsidian/plugins/obsidian-git/main.js",
+    ".obsidian/plugins/obsidian-git/manifest.json",
+    ".obsidian/plugins/obsidian-git/styles.css",
+    ".obsidian/plugins/obsidian-icon-folder/data.json",
+    ".obsidian/plugins/obsidian-icon-folder/main.js",
+    ".obsidian/plugins/obsidian-icon-folder/manifest.json",
+    ".obsidian/plugins/obsidian-icon-folder/styles.css",
+    ".obsidian/plugins/obsidian-spaced-repetition/main.js",
+    ".obsidian/plugins/obsidian-spaced-repetition/manifest.json",
+    ".obsidian/plugins/obsidian-spaced-repetition/styles.css",
+    ".obsidian/plugins/table-editor-obsidian/data.json",
+    ".obsidian/plugins/table-editor-obsidian/main.js",
+    ".obsidian/plugins/table-editor-obsidian/manifest.json",
+    ".obsidian/plugins/table-editor-obsidian/styles.css",
+    ".obsidian/snippets/library__sidebar-items.css",
+    ".obsidian/themes/Obsidianite/manifest.json",
+    ".obsidian/themes/Obsidianite/theme.css",
+    ".obsidian/themes/Vanilla AMOLED/manifest.json",
+    ".obsidian/themes/Vanilla AMOLED/theme.css",
+    ".obsidian/workspace.json"
+  ]
+}
+[2026-03-14T12:41:39.546Z] ✅ [SYNC COMPLETE] Success with conflicts: {
+  "duration": "5.05s",
+  "totalOperations": 87,
+  "conflicts": 87,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": [
+        {
+          "path": "_fit/Что нужно разобрать завтра.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/Untitled.canvas",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/README.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/99 - Assets/Images/Pasted image 20260227123435.png",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/99 - Assets/Images/Pasted image 20260227122729.png",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/98 - Templates/Конспект.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/03 - Work/Rules/Rules.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/03 - Work/Reports/2026.03.12.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/03 - Work/Reports/2026.03.12 - KKM.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/03 - Work/Reports/2026.03.12 - KKM Draw.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/03 - Work/Reports/2026.03.10.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/03 - Work/Reports/2026.03.04.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/03 - Work/Reports/2026.03.02.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/03 - Work/Reports/2026.02.26 - Quiz Draw.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/03 - Work/Reports/2026.02.25 - Quiz Report.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/03 - Work/Reports/2026.02.25 - Quiz Draw.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/03 - Work/Reports/2026.02.24 - Quiz Report.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/03 - Work/Reports/2026.02.24 - Quiz Draw.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/03 - Work/Reports/2026.02.20 - Quiz.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/03 - Work/Reports/2026.02.19 - Quiz.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/02 - Mindset/Экскурсии.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/02 - Mindset/Что нового можно изучить.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/02 - Mindset/Приколы.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/02 - Mindset/Переделка.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/02 - Mindset/Новые мысли.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/02 - Mindset/Книги.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/02 - Mindset/Книга мыслей.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/02 - Mindset/Как учиться лучше?.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/02 - Mindset/День.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/02 - Mindset/Reports/19.03.2025.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/02 - Mindset/Look/Прическа.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/01 - English/Словарь.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/01 - English/Rules/Apostrophe.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/00 - Programming/Rails/Hotwire/Data-Turbo-Permanent.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/00 - Programming/Rails/Decorators.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/00 - Programming/Rails/?Logger.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/00 - Programming/Rails/?Decorators vs Helpers vs Presenters.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/00 - Programming/Naming Conventions.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/00 - Programming/Linux/Stdin, Stdout, and Stderr.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/00 - Programming/Linux/File Descriptors.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/00 - Programming/Drawing 2026-02-20 16.21.57.excalidraw.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/00 - Programming/Docker/Getting Started.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/00 - Programming/Docker/Docker.sock.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/00 - Programming/Base/TCP.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/00 - Programming/Base/HTTP.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/00 - Programming/Base/HTTP-Proxy.md",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.DS_Store",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/.DS_Store",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/app.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/appearance.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/community-plugins.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/core-plugins.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/graph.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/icons/simple-icons.zip",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/icons/simple-icons/Docker.svg",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/icons/simple-icons/Hotwire.svg",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/icons/simple-icons/Linux.svg",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/icons/simple-icons/Ruby.svg",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/icons/simple-icons/Rubyonrails.svg",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-excalidraw-plugin/data.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-excalidraw-plugin/main.js",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-excalidraw-plugin/manifest.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-excalidraw-plugin/styles.css",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-extract-pdf-highlights/main.js",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-extract-pdf-highlights/manifest.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-extract-pdf-highlights/styles.css",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-git/data.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-git/main.js",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-git/manifest.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-git/styles.css",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-icon-folder/data.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-icon-folder/main.js",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-icon-folder/manifest.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-icon-folder/styles.css",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-spaced-repetition/main.js",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-spaced-repetition/manifest.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/obsidian-spaced-repetition/styles.css",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/table-editor-obsidian/data.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/table-editor-obsidian/main.js",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/table-editor-obsidian/manifest.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/plugins/table-editor-obsidian/styles.css",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/snippets/library__sidebar-items.css",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/themes/Obsidianite/manifest.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/themes/Obsidianite/theme.css",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/themes/Vanilla AMOLED/manifest.json",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/themes/Vanilla AMOLED/theme.css",
+          "type": "ADDED"
+        },
+        {
+          "path": "_fit/.obsidian/workspace.json",
+          "type": "ADDED"
+        }
+      ]
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": []
+    }
+  ],
+  "unresolvedConflicts": [
+    {
+      "path": "Что нужно разобрать завтра.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "Untitled.canvas",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "README.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "99 - Assets/Images/Pasted image 20260227123435.png",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "99 - Assets/Images/Pasted image 20260227122729.png",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "98 - Templates/Конспект.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "03 - Work/Rules/Rules.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.03.12.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.03.12 - KKM.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.03.12 - KKM Draw.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.03.10.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.03.04.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.03.02.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.02.26 - Quiz Draw.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.02.25 - Quiz Report.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.02.25 - Quiz Draw.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.02.24 - Quiz Report.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.02.24 - Quiz Draw.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.02.20 - Quiz.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "03 - Work/Reports/2026.02.19 - Quiz.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Экскурсии.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Что нового можно изучить.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Приколы.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Переделка.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Новые мысли.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Книги.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Книга мыслей.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Как учиться лучше?.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/День.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Reports/19.03.2025.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "02 - Mindset/Look/Прическа.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "01 - English/Словарь.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "01 - English/Rules/Apostrophe.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Rails/Hotwire/Data-Turbo-Permanent.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Rails/Decorators.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Rails/?Logger.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Rails/?Decorators vs Helpers vs Presenters.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Naming Conventions.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Linux/Stdin, Stdout, and Stderr.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Linux/File Descriptors.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Drawing 2026-02-20 16.21.57.excalidraw.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Docker/Getting Started.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Docker/Docker.sock.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Base/TCP.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Base/HTTP.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": "00 - Programming/Base/HTTP-Proxy.md",
+      "localState": "ADDED",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".DS_Store",
+      "localState": "untracked",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/.DS_Store",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/app.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/appearance.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/community-plugins.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/core-plugins.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/graph.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/icons/simple-icons.zip",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/icons/simple-icons/Docker.svg",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/icons/simple-icons/Hotwire.svg",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/icons/simple-icons/Linux.svg",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/icons/simple-icons/Ruby.svg",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/icons/simple-icons/Rubyonrails.svg",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-excalidraw-plugin/data.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-excalidraw-plugin/main.js",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-excalidraw-plugin/manifest.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-excalidraw-plugin/styles.css",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-extract-pdf-highlights/main.js",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-extract-pdf-highlights/manifest.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-extract-pdf-highlights/styles.css",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-git/data.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-git/main.js",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-git/manifest.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-git/styles.css",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-icon-folder/data.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-icon-folder/main.js",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-icon-folder/manifest.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-icon-folder/styles.css",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-spaced-repetition/main.js",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-spaced-repetition/manifest.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-spaced-repetition/styles.css",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/table-editor-obsidian/data.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/table-editor-obsidian/main.js",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/table-editor-obsidian/manifest.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/plugins/table-editor-obsidian/styles.css",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/snippets/library__sidebar-items.css",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/themes/Obsidianite/manifest.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/themes/Obsidianite/theme.css",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/themes/Vanilla AMOLED/manifest.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/themes/Vanilla AMOLED/theme.css",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    },
+    {
+      "path": ".obsidian/workspace.json",
+      "localState": "protected",
+      "remoteOp": "ADDED"
+    }
+  ]
+}
+[2026-03-14T12:44:28.129Z] [Plugin] Auto sync requested
+[2026-03-14T12:44:28.132Z] 🚀 [SYNC START] Auto sync requested
+[2026-03-14T12:44:28.132Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-03-14T12:44:28.132Z] .. 💾 [LocalVault] Scanning files...
+[2026-03-14T12:44:28.134Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-03-14T12:44:28.173Z] ... 💾 [LocalVault] Scanned 92 files
+[2026-03-14T12:44:30.109Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (76a1967)...
+[2026-03-14T12:44:30.633Z] ... ☁️ [RemoteVault] Fetched 87 files
+[2026-03-14T12:44:30.634Z] .. ✅ [Sync] Change detection complete
+[2026-03-14T12:44:30.634Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-03-14T12:44:30.635Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 47,
+  "remoteChanges": 0,
+  "commitChanged": false,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 0
+}
+[2026-03-14T12:44:30.639Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 46,
+  "remoteShaCount": 87,
+  "lastCommit": "76a196721e43c9863f327d2a9c13dfe14377d958"
+}
+[2026-03-14T12:44:30.639Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "2.51s",
+  "totalOperations": 0,
+  "conflicts": 0
+}
