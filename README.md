@@ -7,4 +7,4 @@ https://tailwindcss.com/docs/colors
 - Content - `#efb100`
 - Definition - `#2b7fff`
 - Dont understand - `#fb2c36`
-- <span >Question</span> - `#ff6900`
+- Question - <span style="color: #ff6900;">`#ff6900`</span>
