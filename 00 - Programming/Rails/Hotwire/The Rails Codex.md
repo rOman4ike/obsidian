@@ -1,5 +1,5 @@
 ---
 tags:
   - programming
+book: "[[The Rails and Hotwire Codex.pdf]]"
 ---
-[[The Rails and Hotwire Codex.pdf]]
