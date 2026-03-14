@@ -4,7 +4,7 @@ https://tailwindcss.com/docs/colors
 
 ## PDF Hightlighted Colors
 
-- Content - `#efb100`
-- Definition - `#2b7fff`
-- Dont understand - `#fb2c36`
-- Question - <span style="color: #ff6900;">`#ff6900`</span>
+- <span style="color: #efb100;">Content</span> - `#efb100`
+- <span style="color: #2b7fff;">Definition</span> - `#2b7fff`
+- <span style="">Dont understand</span> - `#fb2c36`
+- Question - `#ff6900`
