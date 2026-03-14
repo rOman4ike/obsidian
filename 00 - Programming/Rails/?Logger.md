@@ -81,7 +81,7 @@ Rails.logger = Logger.new(STDOUT)
 Rails.logger.formatter = CustomLoggerFormatter.new
 ```
 
-Working: The call method in the CustomLoggerFormatter class is invoked internally by the Logger class whenever a log message is processed. Here’s a breakdown of how it works:
+Working: The call method in the CustomLoggerFormatter class is invoked internally by the Logger class <mark style="background: #FFB8EBA6;">whenever</mark> a log message is processed. Here’s a breakdown of how it works:
 
 ## Rotating Log Files
 
