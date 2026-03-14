@@ -1512,3 +1512,136 @@
   "totalOperations": 0,
   "conflicts": 0
 }
+[2026-03-14T12:47:28.005Z] [Plugin] Auto sync requested
+[2026-03-14T12:47:28.009Z] 🚀 [SYNC START] Auto sync requested
+[2026-03-14T12:47:28.009Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-03-14T12:47:28.009Z] .. 💾 [LocalVault] Scanning files...
+[2026-03-14T12:47:28.010Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-03-14T12:47:28.048Z] ... 💾 [LocalVault] Scanned 92 files
+[2026-03-14T12:47:28.945Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (76a1967)...
+[2026-03-14T12:47:29.422Z] ... ☁️ [RemoteVault] Fetched 87 files
+[2026-03-14T12:47:29.422Z] .. ✅ [Sync] Change detection complete
+[2026-03-14T12:47:29.422Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-03-14T12:47:29.423Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 46,
+  "remoteChanges": 0,
+  "commitChanged": false,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 0
+}
+[2026-03-14T12:47:29.428Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 46,
+  "remoteShaCount": 87,
+  "lastCommit": "76a196721e43c9863f327d2a9c13dfe14377d958"
+}
+[2026-03-14T12:47:29.428Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "1.42s",
+  "totalOperations": 0,
+  "conflicts": 0
+}
+[2026-03-14T12:50:28.003Z] [Plugin] Auto sync requested
+[2026-03-14T12:50:28.006Z] 🚀 [SYNC START] Auto sync requested
+[2026-03-14T12:50:28.007Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-03-14T12:50:28.007Z] .. 💾 [LocalVault] Scanning files...
+[2026-03-14T12:50:28.007Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-03-14T12:50:28.042Z] ... 💾 [LocalVault] Scanned 92 files
+[2026-03-14T12:50:28.698Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (1bd26bd)...
+[2026-03-14T12:50:29.169Z] ... ☁️ [RemoteVault] Fetched 87 files
+[2026-03-14T12:50:29.169Z] [Fit] Remote changes detected: {
+  "ADDED": 0,
+  "MODIFIED": 1,
+  "REMOVED": 0,
+  "total": 1
+}
+[2026-03-14T12:50:29.169Z] .. ✅ [Sync] Change detection complete
+[2026-03-14T12:50:29.169Z] 🔄 [FitSync] Syncing changes (0 local, 1 remote): {
+  "remote": {
+    "MODIFIED": [
+      "README.md"
+    ]
+  }
+}
+[2026-03-14T12:50:29.169Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 1,
+  "clashes": 0
+}
+[2026-03-14T12:50:29.663Z] .. ⬇️ [Pull] Applied remote changes to local: {
+  "filesWritten": 1,
+  "filesDeleted": 0,
+  "clashesWrittenToFit": 0
+}
+[2026-03-14T12:50:29.663Z] [FitSync] Updated local state with SHAs from written files: {
+  "filesProcessed": 1,
+  "totalFilesInState": 92
+}
+[2026-03-14T12:50:29.663Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 46,
+  "remoteChanges": 0,
+  "commitChanged": true,
+  "localOpsApplied": 1,
+  "remoteOpsPushed": 0
+}
+[2026-03-14T12:50:29.679Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 46,
+  "remoteShaCount": 87,
+  "lastCommit": "1bd26bd4c34f91b81ac9559dd7998f2c3f18b89c"
+}
+[2026-03-14T12:50:29.679Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "1.67s",
+  "totalOperations": 1,
+  "conflicts": 0,
+  "changes": [
+    {
+      "heading": "Local file updates:",
+      "changes": [
+        {
+          "path": "README.md",
+          "type": "MODIFIED"
+        }
+      ]
+    },
+    {
+      "heading": "Remote file updates:",
+      "changes": []
+    }
+  ]
+}
+[2026-03-14T12:53:28.032Z] [Plugin] Auto sync requested
+[2026-03-14T12:53:28.034Z] 🚀 [SYNC START] Auto sync requested
+[2026-03-14T12:53:28.034Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-03-14T12:53:28.034Z] .. 💾 [LocalVault] Scanning files...
+[2026-03-14T12:53:28.036Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-03-14T12:53:28.067Z] ... 💾 [LocalVault] Scanned 92 files
+[2026-03-14T12:53:28.695Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (1bd26bd)...
+[2026-03-14T12:53:29.097Z] ... ☁️ [RemoteVault] Fetched 87 files
+[2026-03-14T12:53:29.097Z] .. ✅ [Sync] Change detection complete
+[2026-03-14T12:53:29.097Z] [FitSync] Conflict detection complete: {
+  "safeLocal": 0,
+  "safeRemote": 0,
+  "clashes": 0
+}
+[2026-03-14T12:53:29.098Z] .. 📦 [Cache] Updating SHA cache after sync: {
+  "localChanges": 46,
+  "remoteChanges": 0,
+  "commitChanged": false,
+  "localOpsApplied": 0,
+  "remoteOpsPushed": 0
+}
+[2026-03-14T12:53:29.103Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 46,
+  "remoteShaCount": 87,
+  "lastCommit": "1bd26bd4c34f91b81ac9559dd7998f2c3f18b89c"
+}
+[2026-03-14T12:53:29.103Z] ✅ [SYNC COMPLETE] Success: {
+  "duration": "1.07s",
+  "totalOperations": 0,
+  "conflicts": 0
+}

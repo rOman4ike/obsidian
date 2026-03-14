@@ -197,8 +197,10 @@
       "fit:Sync to GitHub": false
     }
   },
-  "active": "2883d7f79d5f6461",
+  "active": "2b03fa10507f4562",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "README.md",
     "_fit/00 - Programming/Rails/Hotwire/Data-Turbo-Permanent.md",
     "_fit/00 - Programming/Rails/Hotwire",
     "_fit/00 - Programming/Base/HTTP-Proxy.md",
@@ -224,8 +226,6 @@
     "_fit/03 - Work/Reports/2026.03.02.md",
     "_fit/03 - Work/Reports/2026.03.04.md",
     "_fit/03 - Work/Reports/2026.03.10.md",
-    "_fit/03 - Work/Reports/2026.03.12 - KKM Draw.md",
-    "_fit/03 - Work/Reports/2026.03.12 - KKM.md",
     "_fit/99 - Assets/Images/Pasted image 20260227122729.png",
     "_fit/99 - Assets/Images/Pasted image 20260227123435.png",
     "_fit/00 - Programming/Base",
@@ -239,7 +239,6 @@
     "_fit/03 - Work/Rules",
     "_fit/Untitled.canvas",
     "99 - Assets/Images/Pasted image 20260227122729.png",
-    "99 - Assets/Images/Pasted image 20260227123435.png",
-    "Untitled.canvas"
+    "99 - Assets/Images/Pasted image 20260227123435.png"
   ]
 }
