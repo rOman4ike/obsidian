@@ -11,3 +11,4 @@ https://tailwindcss.com/docs/colors
 ## Tags
 
 1. programming
+2. prompt
