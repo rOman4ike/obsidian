@@ -6,7 +6,7 @@
 3. Быстрое создание заметок (Daily Notes)
 4. ...
 
-Структура проекта + большинство идей взяты из [видео](https://www.youtube.com/watch?v=rAkerV8rlow&t=419s)
+Большинство идей взяты из [видео 1](https://www.youtube.com/watch?v=rAkerV8rlow&t=419s) и [видео 2](https://www.youtube.com/watch?v=YNcbFwp9tNU)
 
 ## Используемые инструменты и плагины
 
