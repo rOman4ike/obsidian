@@ -27,7 +27,9 @@
 1. `GitSync`
 2. `Shortcuts`
 
-## Quick Note Shortcuts
+---
+
+# Quick Note Shortcuts
 
 > [!important] 
 > Подходит ТОЛЬКО для macOS + IOS
@@ -44,6 +46,14 @@
 
 В качестве альтернативы имеется приложение [Antinote](https://antinote.io)
 
+---
+
+# Правила
+
+Еще не готово
+
+---
+
 # В планах
 
 1. Теги
@@ -58,3 +68,5 @@
 10. Промпты для генерации всего всего всего
 11. Second Brain
 12. Obsidian Hotkeys
+13. Obsidian Note: **Map Of Content**, **Index note**, **Dashboard / Hub**
+14. Как вывести инфу из другой заметки?
