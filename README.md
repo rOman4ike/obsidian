@@ -70,3 +70,4 @@
 12. Obsidian Hotkeys
 13. Obsidian Note: **Map Of Content**, **Index note**, **Dashboard / Hub**
 14. Как вывести инфу из другой заметки?
+15. Obsidian - свойства YAML
