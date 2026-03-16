@@ -71,3 +71,5 @@
 13. Obsidian Note: **Map Of Content**, **Index note**, **Dashboard / Hub**
 14. Как вывести инфу из другой заметки?
 15. Obsidian - свойства YAML
+16. Obsidian Core plugins
+17. Obsidian DataView
