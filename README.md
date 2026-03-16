@@ -48,3 +48,4 @@
 5. Obsidian Smart Connections
 6. Elephas
 7. zettelkasten, PARA
+8. Геймификация Obsidian
