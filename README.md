@@ -10,16 +10,18 @@
 
 ## Используемые инструменты и плагины
 
-Плагины для Obsidian:
-1. `Advanced Tables`
-2. `Excalidraw`
-3. `Git`
-4. `Iconize`
-
-Для MacOs:
+Плагины для браузера:
 1. `Obsidian Web Clipper`
-2. `Shortcuts`
-3. `Codex`
+
+Плагины для Obsidian:
+2. `Advanced Tables`
+3. `Excalidraw`
+4. `Git`
+5. `Iconize`
+
+Для macOS:
+1. `Shortcuts`
+2. `Codex`
 
 Для Iphone:
 1. `GitSync`
@@ -27,12 +29,12 @@
 
 ## Quick Note Shortcuts
 
-> [!note] 
-> Подходит ТОЛЬКО для MacOs + IOS
+> [!important] 
+> Подходит ТОЛЬКО для macOS + IOS
 
 Для быстрого создания заметок и добавления в нее используются Shortcut-ы.
 
-Для Macos:
+Для macOS:
 
 ![[Pasted image 20260317012125.png]]
 
