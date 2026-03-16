@@ -3,6 +3,15 @@
 2. Хранилище может легко передаваться между несколькими устройствами
 3. 
 
+## Quick Note Shortcuts
+
+> [!note] 
+> Подходит ТОЛЬКО для MacOs + IOS
+
+Для быстрого создания заметок и добавления в нее используется следующий Shortcut для Macos:
+
+![[Pasted image 20260317011917.png]]
+
 ## Color Pallete
 
 https://tailwindcss.com/docs/colors
