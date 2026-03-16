@@ -49,3 +49,7 @@
 6. Elephas
 7. zettelkasten, PARA
 8. Геймификация Obsidian
+9. Obsidian и AI
+10. Промпты для генерации всего всего всего
+11. Second Brain
+12. 
