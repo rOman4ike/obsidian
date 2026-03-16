@@ -64,7 +64,7 @@
 6. Elephas
 7. zettelkasten, PARA
 8. Геймификация Obsidian
-9. Obsidian и AI
+9. Obsidian и AI ([ссылка](https://www.reddit.com/r/ObsidianMD/comments/1fhhbnw/what_ai_tools_do_you_use_with_obsidian_how_do_you/))
 10. Промпты для генерации всего всего всего
 11. Second Brain
 12. Obsidian Hotkeys
@@ -73,3 +73,4 @@
 15. Obsidian - свойства YAML
 16. Obsidian Core plugins
 17. Obsidian DataView
+18. Obsidian Canvas + Obsidian Base
