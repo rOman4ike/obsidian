@@ -57,4 +57,4 @@
 9. Obsidian и AI
 10. Промпты для генерации всего всего всего
 11. Second Brain
-12. 
+12. Obsidian Hotkeys
