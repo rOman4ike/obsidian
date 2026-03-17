@@ -71,16 +71,15 @@ State tags:
 1. Perplexity и Dia
 2. Obsidian templates
 3. Obsidian Scripts
-4. Elephas
-5. zettelkasten, PARA
-6. Геймификация Obsidian
-7. Obsidian и AI ([ссылка](https://www.reddit.com/r/ObsidianMD/comments/1fhhbnw/what_ai_tools_do_you_use_with_obsidian_how_do_you/))
-8. Промпты для генерации всего всего всего
-9. Second Brain
-10. Obsidian Hotkeys
-11. Obsidian Note: **Map Of Content**, **Index note**, **Dashboard / Hub**
-12. Как вывести инфу из другой заметки?
-13. Obsidian - свойства YAML
-14. Obsidian Core plugins
-15. Obsidian DataView
-16. Obsidian Canvas + Obsidian Base
+4. zettelkasten, PARA
+5. Геймификация Obsidian
+6. Obsidian и AI ([ссылка](https://www.reddit.com/r/ObsidianMD/comments/1fhhbnw/what_ai_tools_do_you_use_with_obsidian_how_do_you/))
+7. Промпты для генерации всего всего всего
+8. Second Brain
+9. Obsidian Hotkeys
+10. Obsidian Note: **Map Of Content**, **Index note**, **Dashboard / Hub**
+11. Как вывести инфу из другой заметки?
+12. Obsidian - свойства YAML
+13. Obsidian Core plugins
+14. Obsidian DataView
+15. Obsidian Canvas + Obsidian Base
