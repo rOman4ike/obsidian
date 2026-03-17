@@ -68,18 +68,11 @@ State tags:
 
 # В планах
 
-1. Backlinks, Quick switcher
-
-2. Perplexity и Dia
-3. Obsidian templates
-4. Obsidian Scripts
-5. zettelkasten, PARA
-6. Промпты для генерации всего всего всего
-7. Second Brain
-8. Obsidian Hotkeys
-9. Obsidian Note: **Map Of Content**, **Index note**, **Dashboard / Hub**
-10. Как вывести инфу из другой заметки?
-11. Obsidian - свойства YAML
-12. Obsidian Core plugins
-13. Obsidian DataView
-14. Obsidian Canvas + Obsidian Base
+- [ ] Template на создание конспекта для промпта (не забыть про эмодзи)
+- [ ] Промпт для генерации конспекта
+- [ ] https://help.obsidian.md
+- [ ] Backlinks, Quick switcher
+- [ ] Obsidian Hotkeys
+- [ ] **Map Of Content**, **Index note**, **Dashboard / Hub**
+- [ ] Obsidian - свойства YAML
+- [ ] Obsidian Canvas + Obsidian Base
