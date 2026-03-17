@@ -8,7 +8,8 @@
 		{"id":"273f04afd64011ce","type":"text","text":"```rb\n# Модель игры\nclass Game\n\t# Находит текущий GameQuestion\n\tdef current_question; end\nend\n```","x":760,"y":145,"width":520,"height":200},
 		{"id":"c97dd8d6874531ac","type":"text","text":"```rb\n# Тоглит готовность игроков\nclass MiniApp::ParticipationsController\n\tdef update; end\nend\n```","x":200,"y":255,"width":440,"height":145},
 		{"id":"851acd40f459bcf6","type":"text","text":"```rb\n# Тоглит готовность игроков\nclass MiniApp::ParticipationsController\n\tskip_before_action :ensure_no_active_game!\n\tdef update; end\nend\n```","x":200,"y":435,"width":440,"height":185},
-		{"id":"7c04fb3edc5444e9","type":"text","text":"```rb\n# ???\nclass Game::Broadcaster\n\t# Запускает один из методов, определенных в `ACTIONS`\n\tdef call; end\n\t\n\t#\n\tdef actionable?; end\nend\n```","x":1500,"y":1080,"width":600,"height":790}
+		{"id":"7c04fb3edc5444e9","type":"text","text":"```rb\n# ???\nclass Game::Broadcaster\n\t# Проверяет что ???\n\t# Запускает один из методов, определенных в `ACTIONS`\n\tdef call; end\n\t\n\t# Это событие всё ещё актуально для текущего состояния игры?\n\tdef actionable?; end\n\t\n\t# ???\n\tdef results(round); end\n\n\t#\n\tdef broadcast_per_player; end\nend\n```","x":1500,"y":1080,"width":600,"height":790},
+		{"id":"d2d59c6d2770d7c3","type":"text","text":"## Вопросы\n\n1. `Game::Broadcaster` - подходящее-ли место расположения для такой логики?","x":2180,"y":615,"width":1020,"height":465}
 	],
 	"edges":[
 		{"id":"cabee81e501a7266","fromNode":"100dc4593d6fcb02","fromSide":"bottom","toNode":"fda4b0f3a4263cc6","toSide":"left"},
