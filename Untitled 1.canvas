@@ -11,7 +11,11 @@
 		{"id":"273f04afd64011ce","type":"text","text":"```rb\n# Модель игры\nclass Game\n\t# Находит текущий GameQuestion\n\tdef current_question; end\nend\n```","x":760,"y":255,"width":520,"height":200},
 		{"id":"6b8bc265739b9ab2","type":"text","text":"## Замечания\n\n1. `Room#participations_for` - название не отражает текущего поведения, а именно сортировка чтобы текущий пользователь находился первым\n2. `Game#current_question` - название подразумевает что ты получаешь `Question`, хотя возвращается `GameQuestion`\n3. `Game::Manager#expired?` - не нравится название, как-будто мы проверяем что истек срок действия `Game`-а\n4. `Game::Manager > InsufficientQuestionsError` - не используется, если не хочется удалять можно пометить что пока не используется. Можно также переименовать в `NotEnoughQuestionsError` для упрощения понимания когда срабатывает `Error`\n5. `Game::Manager > GameFinishedError` - название ошибки не подходит с логикой. Как вариант можно написать `GameNotActiveError`\n6. `Game::Manager > ExpiredError` - название ошибки не подходит с логикой, звучит так, как-будто истекло время игры. Можно просто уточнить что идет проверка вопроса, например `AnswerExpiredError`\n7. `Game::Manager#record_answer!` -> `Game::Manager#create_player_answer!`\n8. `Game::Broadcaster#broadcast_per_player`, `Game::Broadcaster#broadcast_to_all` - не сразу понятно в чем разница методов, как вариант: `Game::Broadcaster#broadcast_unique`, `Game::Broadcaster#broadcast_same` (но и такой вариант не оч подходит, надо подумать)\n9. `Game::Broadcaster#results` - `Game::Broadcaster#round_results`, из названия создается ощущение что показываются результаты самой игры\n10. `Game::Manager#validate_answer!` - проверки на `GameFinishedError` можно вынести чуть выше, тк после того как игра закончилась никакие действия делать нельзя (как мне кажется)\n11. `Game::Manager#start_next_round!` - можно добавить валидацию чтобы `current_round` не был больше `Game::QUESTIONS_COUNT`\n12. `Game::Manager#advance_round!` -> `Game::Manager#broadcast_results!` - звучит попонятнее","x":2160,"y":110,"width":1020,"height":670},
 		{"id":"d2d59c6d2770d7c3","type":"text","text":"## Вопросы\n\n1. `Game::Broadcaster` - подходящее-ли место расположения для такой логики?\n2. Надо разделить замечения на code_style и logic","x":2160,"y":840,"width":1020,"height":465},
-		{"id":"bbf3632d0402d0ae","type":"text","text":"","x":2160,"y":1360,"width":260,"height":100}
+		{"id":"bbf3632d0402d0ae","type":"text","text":"","x":2600,"y":1405,"width":260,"height":100},
+		{"id":"70b2700d25a21754","type":"text","text":"","x":2900,"y":1405,"width":260,"height":100},
+		{"id":"e879b9b8cb2bd11a","type":"text","text":"","x":3200,"y":1405,"width":260,"height":100},
+		{"id":"fe11da28fbbde2df","type":"text","text":"","x":2900,"y":1540,"width":260,"height":100},
+		{"id":"e0176f7963e67e74","type":"text","text":"","x":3200,"y":1680,"width":260,"height":100}
 	],
 	"edges":[
 		{"id":"cabee81e501a7266","fromNode":"100dc4593d6fcb02","fromSide":"bottom","toNode":"fda4b0f3a4263cc6","toSide":"left"},
@@ -19,6 +23,10 @@
 		{"id":"442941d7ed315bdc","fromNode":"100dc4593d6fcb02","fromSide":"bottom","toNode":"851acd40f459bcf6","toSide":"left"},
 		{"id":"b1f2472eba5a17ae","fromNode":"273f04afd64011ce","fromSide":"right","toNode":"abdff3960de0b2bd","toSide":"left"},
 		{"id":"427319e67d81d5e1","fromNode":"273f04afd64011ce","fromSide":"bottom","toNode":"7c04fb3edc5444e9","toSide":"left"},
-		{"id":"2d2f5262076487d1","fromNode":"abdff3960de0b2bd","fromSide":"bottom","toNode":"7c04fb3edc5444e9","toSide":"top"}
+		{"id":"2d2f5262076487d1","fromNode":"abdff3960de0b2bd","fromSide":"bottom","toNode":"7c04fb3edc5444e9","toSide":"top"},
+		{"id":"e6d5987239dcf9d9","fromNode":"bbf3632d0402d0ae","fromSide":"right","toNode":"70b2700d25a21754","toSide":"left"},
+		{"id":"cc86d347bf65401a","fromNode":"70b2700d25a21754","fromSide":"right","toNode":"e879b9b8cb2bd11a","toSide":"left"},
+		{"id":"b743ea804ecc8fc5","fromNode":"bbf3632d0402d0ae","fromSide":"bottom","toNode":"fe11da28fbbde2df","toSide":"left"},
+		{"id":"6605262d34ba38b7","fromNode":"bbf3632d0402d0ae","fromSide":"bottom","toNode":"e0176f7963e67e74","toSide":"left"}
 	]
 }
