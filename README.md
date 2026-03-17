@@ -68,21 +68,19 @@ State tags:
 
 # В планах
 
-1. Теги
-2. Perplexity и Dia
-3. Obsidian templates
-4. Obsidian Scripts
-5. Obsidian Smart Connections
-6. Elephas
-7. zettelkasten, PARA
-8. Геймификация Obsidian
-9. Obsidian и AI ([ссылка](https://www.reddit.com/r/ObsidianMD/comments/1fhhbnw/what_ai_tools_do_you_use_with_obsidian_how_do_you/))
-10. Промпты для генерации всего всего всего
-11. Second Brain
-12. Obsidian Hotkeys
-13. Obsidian Note: **Map Of Content**, **Index note**, **Dashboard / Hub**
-14. Как вывести инфу из другой заметки?
-15. Obsidian - свойства YAML
-16. Obsidian Core plugins
-17. Obsidian DataView
-18. Obsidian Canvas + Obsidian Base
+1. Perplexity и Dia
+2. Obsidian templates
+3. Obsidian Scripts
+4. Elephas
+5. zettelkasten, PARA
+6. Геймификация Obsidian
+7. Obsidian и AI ([ссылка](https://www.reddit.com/r/ObsidianMD/comments/1fhhbnw/what_ai_tools_do_you_use_with_obsidian_how_do_you/))
+8. Промпты для генерации всего всего всего
+9. Second Brain
+10. Obsidian Hotkeys
+11. Obsidian Note: **Map Of Content**, **Index note**, **Dashboard / Hub**
+12. Как вывести инфу из другой заметки?
+13. Obsidian - свойства YAML
+14. Obsidian Core plugins
+15. Obsidian DataView
+16. Obsidian Canvas + Obsidian Base
