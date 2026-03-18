@@ -76,3 +76,4 @@ State tags:
 - [ ] **Map Of Content**, **Index note**, **Dashboard / Hub**
 - [ ] Obsidian - свойства YAML
 - [ ] Obsidian Canvas + Obsidian Base
+- [ ] Лучше подумать над организацией папок (Хочу еще разбирать игры, теорию фильмов, музыку итд, может лучше сделать по другому структуру?)
