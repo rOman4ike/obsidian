@@ -2,7 +2,8 @@
 	"nodes":[
 		{"id":"6dce6d2aac7d5a0a","type":"text","text":"```rb\n# Контроллер для создания комплекта колес\nclass Dashboard::Cars::WheelSetsController\nend\n```","x":360,"y":-40,"width":460,"height":200},
 		{"id":"d2e2dc44ad2061ec","x":-120,"y":-40,"width":420,"height":200,"type":"text","text":"```rb\n# PORO для создания заказов\nclass Order::Creator\nend\n```"},
-		{"id":"a327641b8aad86d6","type":"text","text":"```rb\n# Модель комплекта колес\nclass WheelSet\nend\n```","x":-600,"y":-40,"width":420,"height":200}
+		{"id":"a327641b8aad86d6","type":"text","text":"```rb\n# Модель комплекта колес\nclass WheelSet\nend\n```","x":-600,"y":-40,"width":420,"height":200},
+		{"id":"deb17ae636af8dd5","type":"text","text":"```rb\n# Модель комплекта колес\nclass WheelSet\nend\n```","x":-600,"y":-380,"width":420,"height":200,"color":"5"}
 	],
 	"edges":[]
 }
