@@ -9,7 +9,7 @@
 		{"id":"4e767ca4ae9a9e20","type":"text","text":"WheelSets#update","x":460,"y":-380,"width":180,"height":60},
 		{"id":"af596492a0ded3ca","type":"text","text":"Заказ на хранение","x":720,"y":-500,"width":250,"height":60},
 		{"id":"13300d8a01d3d422","type":"text","text":"","x":720,"y":-380,"width":180,"height":60},
-		{"id":"deb17ae636af8dd5","type":"text","text":"## Вопросы\n\n1. Комплекты колес для авто могут создавать: `user.owner?`  `user.manager?`  `user.tire_fitter?`\n2. `tire_fitter` сейчас может смотреть все заказы, так правильно?\n3. Дать возможность удалять комплекты колес если у них уже есть заказы?\n4. Можем-ли шиномонтажник редактировать заказ?\n\n## Внутрянка\n\n1. `Dashbaord::OrderServicesHelpe#order_service_employee_share` - не забыть что поменяли в НДС","x":-935,"y":-620,"width":755,"height":420,"color":"5"}
+		{"id":"deb17ae636af8dd5","type":"text","text":"## Вопросы\n\n1. Комплекты колес для авто могут создавать: `user.owner?`  `user.manager?`  `user.tire_fitter?`\n2. `tire_fitter` сейчас может смотреть все заказы, так правильно?\n3. Дать возможность удалять комплекты колес если у них уже есть заказы?\n4. Можем-ли шиномонтажник редактировать заказ?\n5. А как шиномонтажник будет понимать на какое именно колесо услуга?\n\n\n\n## Внутрянка\n\n1. `Dashbaord::OrderServicesHelpe#order_service_employee_share` - не забыть что поменяли в НДС","x":-935,"y":-620,"width":755,"height":420,"color":"5"}
 	],
 	"edges":[
 		{"id":"c7da6d85734a9079","fromNode":"c0bf2ebcbda156c9","fromSide":"right","toNode":"ec8111afdc39e1a2","toSide":"left"},
