@@ -1,5 +1,5 @@
 # Refs
-
+ 
 1. https://ru.hexlet.io/blog/posts/faylovyy-deskriptor-chto-eto-prostymi-slovami
 2. https://habr.com/ru/companies/otus/articles/894854/
 3. https://linuxtldr.com/proc-file-system/
