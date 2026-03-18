@@ -5,9 +5,14 @@
 		{"id":"a327641b8aad86d6","type":"text","text":"```rb\n# Модель комплекта колес\nclass WheelSet\nend\n```","x":-600,"y":-40,"width":420,"height":200},
 		{"id":"deb17ae636af8dd5","type":"text","text":"","x":-600,"y":-380,"width":420,"height":200,"color":"5"},
 		{"id":"c0bf2ebcbda156c9","x":90,"y":-380,"width":130,"height":60,"type":"text","text":"Cars#Show"},
-		{"id":"ec8111afdc39e1a2","type":"text","text":"WheelSets#new","x":295,"y":-380,"width":165,"height":60}
+		{"id":"f3bdd22c6890a4da","x":90,"y":-500,"width":250,"height":60,"type":"text","text":"Создание комплекта"},
+		{"id":"ec8111afdc39e1a2","type":"text","text":"WheelSets#new","x":258,"y":-380,"width":165,"height":60},
+		{"id":"4e767ca4ae9a9e20","type":"text","text":"WheelSets#update","x":460,"y":-380,"width":180,"height":60},
+		{"id":"af596492a0ded3ca","type":"text","text":"Заказ на хранение","x":720,"y":-500,"width":250,"height":60},
+		{"id":"13300d8a01d3d422","type":"text","text":"","x":720,"y":-380,"width":180,"height":60}
 	],
 	"edges":[
-		{"id":"c7da6d85734a9079","fromNode":"c0bf2ebcbda156c9","fromSide":"right","toNode":"ec8111afdc39e1a2","toSide":"left"}
+		{"id":"c7da6d85734a9079","fromNode":"c0bf2ebcbda156c9","fromSide":"right","toNode":"ec8111afdc39e1a2","toSide":"left"},
+		{"id":"c2de7d6ba9a1808b","fromNode":"ec8111afdc39e1a2","fromSide":"right","toNode":"4e767ca4ae9a9e20","toSide":"left"}
 	]
 }
